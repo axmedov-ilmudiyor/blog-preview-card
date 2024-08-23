@@ -8,22 +8,78 @@
 
 body {
   font-family: "Figtree", sans-serif;
-  background-color: #F4D04E;
+  background-color: #f4d04e;
 }
 
-.main__section-wrapper{
-    display: flex;
-    justify-content: center;
+.main__section-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 150%;
+  height: 100vh;
 }
 
-.main__section-card{
-    display: flex;
-    flex-direction: column;
-    padding: 24px;
-    background-color: #ffffff;
-    border-radius: 20px;
+.main__section-card {
+  max-width: 384px;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  border: 1px solid #111;
+  box-shadow: 8px 8px #111;
 }
 
-.main__section-card__img{
-    border-radius: 10px;
+.main__section-card__content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.main__section-card__img {
+  width: 336px;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+
+.main__section-card__name {
+  font-size: 14px;
+  font-weight: 700;
+  padding: 4px 12px;
+  background-color: #f4d04e;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+.main__section-card__time {
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.main__section-card__title {
+  font-size: 24px;
+  font-family: 700;
+  margin-bottom: 12px;
+}
+
+.main__section-card__text {
+  margin-bottom: 24px;
+}
+
+.main__section-card__profile {
+  width: 100%;
+  max-width: 130px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.main__section-card__profile_photo {
+  width: 32px;
+  height: 32px;
+}
+
+.main__section-card__profile_name {
+  font-size: 14px;
 }
