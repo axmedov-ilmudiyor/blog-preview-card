@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@300..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+  background-color: #F4D04E;
+}
+
+.main__section-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.main__section-card{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.main__section-card__img{
+    border-radius: 10px;
+}
