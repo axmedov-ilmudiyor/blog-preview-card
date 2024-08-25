@@ -11,12 +11,20 @@ body {
   background-color: #f4d04e;
 }
 
+.main__section{
+  width: 100%;
+  max-width: 1460px;
+}
+
 .main__section-wrapper {
   display: flex;
+  width: 100%;
+  max-width: 1440px;
   justify-content: center;
   align-items: center;
   line-height: 150%;
   height: 100vh;
+  padding: 0 20px;
 }
 
 .main__section-card {
@@ -82,4 +90,30 @@ body {
 
 .main__section-card__profile_name {
   font-size: 14px;
+}
+
+/*! MEADIA QUERIES */
+
+@media screen and (max-width: 375px){
+  .main__section-card{
+    max-width: 327px;
+  }
+
+  .main__section-card__img{
+    width: 279px;
+    object-fit: cover;
+  }
+
+  .main__section-card__name, 
+  .main__section-card__time{
+    font-size: 12px;
+  }
+
+  .main__section-card__title{
+    font-size: 20px;
+  }
+
+  .main__section-card__text{
+    font-size: 14px;
+  }
 }
